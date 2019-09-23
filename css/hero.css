@@ -10,7 +10,6 @@ body{
 }
 
 header{
-
 	background-color: #000099;
 	text-align: center;
 	padding-top: 50px;
@@ -25,8 +24,11 @@ header h1 {
 	font-size: 400%;
 	font-family: Comic Sans MS, Arial, sans-serif;
 	background-color: #e6e600;
-	text-shadow: 11px 8px 13px black;
-
+	text-shadow: 
+	-11px 8px 23px black,
+	11px -8px 23px black,
+	11px 8px 23px black,
+	-11px -8px 23px black;
 }
 
 header img{
