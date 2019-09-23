@@ -97,6 +97,8 @@ main div{
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-   	background:rgba(0,0,0,0.7);
-
+}
+div.darken{
+	   	background:rgba(0,0,0,0.7);
+	   	max-width: 100%;
 }
