@@ -2,7 +2,11 @@ body{
 	margin: 0;
 	background-color: black;
 	font-size: 125%;
-
+	background: url(https://i.pinimg.com/originals/73/dc/b8/73dcb82a864a1ae4739f573b948b2939.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 header{
@@ -11,7 +15,8 @@ header{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
-
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
 }
 
 header h1 {
@@ -25,7 +30,6 @@ header h1 {
 }
 
 header img{
-
 	border-radius: 100%;
 	width: 50%;
 	border: 15px solid black;
@@ -33,18 +37,14 @@ header img{
 }
 
 h1, h2{
-
 	font-family: 'Boogaloo', cursive;
 	margin-bottom: 0;
-
 }
 
 main{
-	background: url(https://i.pinimg.com/originals/73/dc/b8/73dcb82a864a1ae4739f573b948b2939.jpg) no-repeat center center fixed;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+	background:rgba(0,0,0,0.7);
+	max-width: 100%;
+	padding: 0 0;
 }
 
 main img{
@@ -68,17 +68,16 @@ a{
 a:hover{
 	background-color: steelblue;
 }
+
 a:visited{
 	color: grey;
 }
 
 footer{
-	
 	background-color: #000099;
 	text-align: center;
 	color: white;
 	padding: 2%;
-
 }
 
 p.caption{
@@ -86,6 +85,7 @@ p.caption{
 	color: lightgrey;
 	font-style: italic;
 }
+
 main div{
 	max-width: 1080px;
 	margin: 0 auto;
@@ -97,10 +97,4 @@ main div{
     -1px 1px 0 #000,
     1px 1px 0 #000;
    	background:rgba(0,0,0,0);
-
-}
-div.darken{
-	   	background:rgba(0,0,0,0.7);
-	   	max-width: 100%;
-	   	padding: 0 0;
 }
